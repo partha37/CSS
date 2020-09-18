@@ -1,0 +1,10 @@
+h2 {
+  background-color: palegreen;
+  color: tan;
+  text-transform: uppercase;
+}
+
+p {
+  color: red;
+  background-color: cyan;
+}

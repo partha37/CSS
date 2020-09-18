@@ -1,0 +1,20 @@
+@mixin heade_style{
+    background-color:orange;
+    letter-spacing:3px;
+    color:green;
+    text-transform:uppercase;
+}
+@mixin para_style{
+    background-color:palevioletred;
+    color:black;
+
+}
+h2{
+    @include heade_style;
+    color:blue;
+    @include heade_style;
+    color:blue;
+}
+p{
+    @include para_style;
+}

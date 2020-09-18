@@ -1,0 +1,15 @@
+$bgcolor:red;
+$color:tan;
+$text:uppercase;
+
+h2{
+    background-color: palegreen;
+    
+    color:$color;
+    $color: cyan !global;
+    text-transform: $text;
+}
+p{
+    color:$bgcolor;
+    background-color: $color;
+}
